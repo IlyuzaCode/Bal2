@@ -1,0 +1,794 @@
+@import "media.css";
+
+body {
+  margin: 0;
+}
+
+.invitation {
+    width: 100%
+    height: 879px;
+    padding-top: 60px;
+  padding-bottom: 10.9vw;;
+  background-image: url(./img/top_image.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.full-date {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+.date-line {
+width: 210px;
+position: relative;
+margin-top: 92px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.date {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+    margin-top: 92px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  padding-left: 10px;
+margin: 0;
+color: #fff;
+background-color: #E18370;
+background: linear-gradient(180deg, transparent 50%, #E18370 50%);
+  
+}
+
+/* .date::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 18px;
+    background-color: #E18370;
+    z-index: -2;
+
+} */
+
+.underline {
+  margin-top: -13px;
+}
+
+.name {
+  font: 79px/84px 'Gilroy-ExtraBold', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 51px;
+  color: #fff;
+}
+
+.date {
+  font: bold 30px/36px 'Gilroy-ExtraBold', sans-serif;
+}
+
+.button, .button2 {
+  width: 260px;
+  height: 69px;
+  font: 20px/24px 'Gilroy-ExtraBold', sans-serif;
+  background: #E18370;
+  border-radius: 40px;
+  color: #fff;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.invitation .button{
+    /*display: block;*/
+}
+
+.invitation .button2{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .invitation .logo img{
+        width: 116px;
+        height: 35px;
+    }
+
+    .date-line {
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0 ;
+        text-align: center;
+        padding: 0;
+    }
+
+    .date {
+        font-size: 24px ;
+        width: 140px ;
+        padding: 0 5px ;
+    }
+
+    .invitation .name{
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .invitation .button{
+        display: none;
+    }
+
+    .invitation .button2{
+        display: unset;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        margin-bottom: 80px;
+        font-size: 17px;
+        padding: 15px 25px;
+    }
+
+
+
+}
+
+
+.program-day1__name {
+  font: 70px/54px 'Gilroy-ExtraBold', sans-serif;
+  color: #E18370;
+  text-transform: uppercase;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.program-day1__date {
+  font: 70px/54px 'Gilroy-ExtraBold', sans-serif;
+  color: #E18370;
+  text-align: center;
+}
+
+.pattern_pink {
+    text-align: center;
+}
+
+.program-day1__description {
+  font: 30px/37px 'Gilroy-ExtraBold', sans-serif;
+  color: #000;
+  text-align: center;
+
+}
+
+.program-day1__point {
+  margin-top: 0;
+}
+
+
+
+
+.program-day1__point p {
+    width: 300px;
+    font-family: 'Gilroy-Light';
+    font-size: 20px;
+    margin: 0px 0 0 0;
+}
+
+
+
+.program-day2 {
+    position: relative;
+    color: white;
+    padding-top:1px;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    background-color:black;
+}
+
+.wrapper {
+    width: 1064px;
+    margin: 0 auto;
+}
+
+.image2 img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.image3 img{
+    width: 100%;
+}
+.program-day-2-header p{
+    text-align: center;
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 30px;
+}
+
+.program-day-2-header .day{
+    font-size: 72px;
+    margin: 40px 0 15px;
+}
+.pattern_grey {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 105px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    background: rgba(225, 131, 112, 0.37);
+    border-radius: 10px;
+}
+.icon img {
+    width: 80px;
+    height: 80px;
+    filter: brightness(0) invert(1);
+}
+
+.program-day2-points,
+.program-day1-points {
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 83px;
+    margin-top: 90px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .program-day1__name {
+        font-size: 40px;
+        line-height: 30px;
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .program-day1__date {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .pattern_pink img{
+        margin: 20px 0 20px 0;
+        width: 330px;
+    }
+
+    .program-day1__description {
+        font-size: 26px;
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+    .program-day1-points {
+        display: block;
+    }
+
+    .program-day1__point {
+
+    }
+
+    .program-day1__point .icon {
+        width: 73px;
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        background: rgba(225, 131, 112, 0.37);
+        border-radius: 10px;
+    }
+    .program-day1__point .icon img {
+        width: 60px;
+        height: 60px;
+        filter: brightness(0) invert(1);
+    }
+
+    .wrapper {
+        width: fit-content;
+        margin: 0 20px;
+    }
+}
+
+
+
+
+.program-day1-points {
+    justify-content: space-between;
+}
+
+.program-day2__point,
+.program-day1__point {
+    display: flex;
+    align-items: center;
+    margin:0 25px 60px 0;
+}
+
+.program-day2__point-description {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.program-day2__point span,
+.program-day1__point span{
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 30px;
+}
+
+
+.program-day2__point p{
+    font-family: 'Gilroy-Light';
+    font-size: 30px;
+    margin: 20px 0 0 0;
+
+}
+
+.timing {
+    list-style: none;
+    margin: 0 0 100px 0;
+    padding: 0;
+}
+
+.timing li {
+    font-size: 30px;
+    background: rgba(255, 235, 221, 0.28);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 49px;
+    margin-bottom: 31px;
+}
+
+.timing li span{
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.timing li {
+    font-family: 'Gilroy-Regular';
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+        width: fit-content;
+        margin: 0 20px;
+    }
+
+    .program-day-2-header .day {
+        font-size: 46px;
+        margin: 40px auto 20px;
+    }
+
+    .pattern_grey {
+
+    }
+
+    .pattern_grey img{
+        width: 330px;
+    }
+
+    .program-day-2-header p{
+        font-size: 26px;
+        width: 350px;
+        margin: 20px auto;
+    }
+
+    .program-day2__point-description span,
+    .program-day2__point-description p
+    {
+        font-size: 22px;
+    }
+
+    .program-day2__point {
+
+        margin: 0 0px 60px 0;
+
+    }
+    .program-day2__point .icon {
+        width: 73px;
+        height: 73px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .program-day2__point .icon img {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .timing {
+        position: relative;
+        height: 400px;
+        overflow: scroll;
+    }
+
+    .timing::after {
+        position: sticky;
+        content: url("./img/arrow.png");
+        bottom: 0;
+        left: 50%;
+        width: 100%;
+        height: 30%;
+    }
+
+    .image2 img {
+        width: unset;
+    }
+
+    .timing li {
+        font-size: 22px;
+        background: rgba(255, 235, 221, 0.28);
+        border-radius: 10px;
+        color: white;
+        padding: 5px 17px;
+        margin-bottom: 20px;
+    }
+
+    .image2 {
+        display: none;
+    }
+
+    .bg {
+        background: url("./img/timing_icon.png") no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.dresscode {
+    width: 100%;
+    height: 1200px;
+    background: url("./img/phrames_pictures.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 60px;
+}
+.dress-code {
+    width: 100%;
+}
+
+
+.dress-code img, .dress-code-mob img {
+    width: 100%;
+}
+
+.dress-code-mob img {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .dress-code img {
+        display: none;
+    }
+
+    .dress-code-mob img {
+        display: unset;
+    }
+}
+
+.dresscode__frames img {
+    width: 100%;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+}
+
+.dresscode__title {
+    margin: 0 0 0 0;
+    color: white;
+    font-size: 70px;
+    font-family: 'Gilroy-Regular';
+    text-align: center;
+}
+
+.dresscode__text1 {
+    font-size: 26px;
+    color: white;
+    top: 240px;
+    left: 900px;
+    position: absolute;
+}
+
+.dresscode__text2{
+    font-size: 26px;
+    color: white;
+    top: 1010px;
+    left: 1155px;
+    position: absolute;
+    text-align: center;
+}
+
+.dresscode__text1 p,
+.dresscode__text2 p{
+    margin: 0;
+    font-family: 'Gilroy-Regular';
+}
+
+.dresscode__text1 span,
+.dresscode__text2 span{
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.picture1, .picture2, .picture3, .dresscode_text2, dresscode__text1 {
+    position: absolute;
+}
+
+.picture1 {
+    top: 260px;
+    left: 345px;
+    width: 470px;
+}
+
+.picture2 {
+    top: 415px;
+    left: 1090px;
+    width: 400px;
+}
+
+.picture3 {
+    top: 785px;
+    left: 690px;
+    width: 205px;
+}
+
+@media screen and (max-width: 600px){
+
+    .dresscode {
+        width: 100%;
+        height: 350px;
+    }
+    .picture1 {
+        top: 82px;
+        left: 58px;
+        width: unset;
+    }
+
+    .picture2 {
+        top: 133px;
+        left: 303px;
+        width: unset;
+    }
+
+    .picture3 {
+        top: 258px;
+        left: 173px;
+        width: unset;
+    }
+
+    .picture1 img{
+        width: 152px;
+    }
+    .picture2 img{
+        width: 130px;
+    }
+    .picture3 img{
+        width: 66px;
+    }
+
+    .dresscode__title {
+        margin-top: -50px;
+        font-family: 'Gilroy-ExtraBold';
+        font-size: 35px;
+    }
+
+    .dresscode__text1 {
+        font-size: 8px;
+        bottom: 10px;
+        right: 215px;
+        top: unset;
+        left: unset;
+        text-align: left;
+    }
+
+    .dresscode__text2 {
+        font-size: 11px;
+        bottom: 50px;
+        right: 60px;
+        text-align: left;
+        top: unset;
+        left: unset;
+    }
+
+
+}
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 60px 0 0 35px;
+}
+.wrapper-reg {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.registration {
+    background-color: #FFF2E9;
+
+}
+
+.registration-title {
+    margin: 0;
+    font-size: 70px;
+    font-family: 'Gilroy-ExtraBold';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registration-subtitle {
+    font-size: 26px;
+    font-family: 'Gilroy-Regular';
+    text-align: center;
+}
+
+.card1, .card2 {
+    width: 400px;
+    height: 557px !important;
+    background: #201D1C;
+    border-radius: 40px;
+    margin: 0 0 0 0;
+    height: 557px;
+}
+
+.card2 {
+  opacity: 0.8;
+}
+
+.client {
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px){
+
+.wrapper-reg {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.registration-title {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Gilroy-ExtraBold';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registration-subtitle {
+    font-size: 18px;
+    font-family: 'Gilroy-Regular';
+    text-align: center;
+}
+  
+  .cards {
+    display: block;
+}
+  .card1 {
+    margin-bottom: 55px;
+}
+
+.card1 {
+    margin-bottom: 55px;
+}
+}
+
+.footer{
+  height: 300px;
+  width: 100%;
+  background: url(./img/footer.png) no-repeat center center;
+  background-size: cover;
+}
+
+.footer .wrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.footer .socials_link{
+  margin: 0 55px;
+}
+
+.footer .offer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 144px;
+}
+
+
+.footer .offer_link{
+  color: white;
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.footer .offer_link:last-child{
+  margin-bottom: 0;
+}
+
+.second_image img {
+    width: 100%;
+}
+
+.footer .logo {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .footer .wrapper, .wrapper-reg {
+        width: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socials {
+        display: flex;
+
+    }
+
+    .offer {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 15px 0 20px;
+        height: 200px;
+    }
+
+    .footer .logo {
+        display: unset;
+        margin: 20px 0;
+    }
+}
+
+
