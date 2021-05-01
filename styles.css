@@ -186,7 +186,7 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
 .program-day1__point p {
     width: 300px;
     font-family: 'Gilroy-Light';
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px 0 0 0;
 }
 
@@ -333,6 +333,10 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
     display: flex;
     align-items: center;
     margin:0 25px 60px 0;
+}
+
+.align-unset {
+  align-items: unset;
 }
 
 .program-day2__point-description {
@@ -725,8 +729,7 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
   
   .cards {
     display: block;
-     display: flex;
-    align-items: center;
+    padding: 60px 0 0 0;
 }
   .card1 {
     margin-bottom: 55px;
