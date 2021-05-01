@@ -256,7 +256,7 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
 .program-day1-points {
     display: flex;
     flex-wrap:wrap;
-    margin-bottom: 83px;
+    margin-bottom: 23px;
     margin-top: 90px;
 }
 
@@ -291,7 +291,7 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
     }
 
     .program-day1__point {
-
+      margin-bottom: 50px;
     }
 
     .program-day1__point .icon {
@@ -313,6 +313,11 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
     .wrapper {
         width: fit-content;
         margin: 0 20px;
+    }
+
+    .program-day2-points,
+    .program-day1-points {
+       margin-bottom: 0;
     }
 }
 
@@ -648,11 +653,15 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
 
 .registration-title {
     margin: 0;
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 70px;
     font-family: 'Gilroy-ExtraBold';
     text-align: center;
     text-transform: uppercase;
+}
+
+.break {
+    display: none;
 }
 
 .registration-subtitle {
@@ -660,6 +669,7 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
     font-family: 'Gilroy-Regular';
     text-align: center;
 }
+
 
 .cards {
     padding-top: 0;
@@ -701,6 +711,10 @@ background: linear-gradient(180deg, transparent 50%, #E18370 50%);
     font-family: 'Gilroy-ExtraBold';
     text-align: center;
     text-transform: uppercase;
+}
+
+.break {
+    display: block;
 }
 
 .registration-subtitle {
